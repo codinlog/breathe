@@ -1,0 +1,3 @@
+include ':AudioView'
+include ':app'
+rootProject.name = "BreathDemo"
