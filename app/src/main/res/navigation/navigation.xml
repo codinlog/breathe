@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/recordFragment"
-        android:name="com.example.breathdemo.fragment.RecordFragment"
+        android:name="com.codinlog.breathe.fragment.RecordFragment"
         android:label="@string/record"
         tools:layout="@layout/fragment_record">
         <action
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
-        android:name="com.example.breathdemo.fragment.ResultFragment"
+        android:name="com.codinlog.breathe.fragment.ResultFragment"
         android:label="@string/result"
         tools:layout="@layout/fragment_result"/>
 </navigation>

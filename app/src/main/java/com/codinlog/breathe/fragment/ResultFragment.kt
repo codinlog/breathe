@@ -1,15 +1,11 @@
-package com.example.breathdemo.fragment
+package com.codinlog.breathe.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
-import androidx.navigation.findNavController
-import androidx.navigation.fragment.findNavController
-import com.example.breathdemo.R
-import com.example.breathdemo.databinding.FragmentResultBinding
-import kotlinx.android.synthetic.main.fragment_result.view.*
+import com.example.breathe.databinding.FragmentResultBinding
 
 class ResultFragment : BaseFragment<FragmentResultBinding>() {
 

@@ -1,4 +1,4 @@
-package com.example.breathdemo
+package com.example.breathe
 
 import org.junit.Test
 

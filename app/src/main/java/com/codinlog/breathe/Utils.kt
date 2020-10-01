@@ -1,4 +1,4 @@
-package com.example.breathdemo
+package com.codinlog.breathe
 
 import android.app.Activity
 import android.content.pm.PackageManager

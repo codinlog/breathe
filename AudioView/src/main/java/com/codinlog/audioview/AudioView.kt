@@ -1,4 +1,4 @@
-package com.example.audioview
+package com.codinlog.audioview
 
 import android.content.Context
 import android.opengl.GLSurfaceView
@@ -8,7 +8,6 @@ import javax.microedition.khronos.opengles.GL10
 
 class AudioView : GLSurfaceView {
     private val renderer: GLRenderer? = null
-
     constructor(context: Context) : this(context, null)
     constructor(context: Context, attrs: AttributeSet?) : super(context, attrs) {
 

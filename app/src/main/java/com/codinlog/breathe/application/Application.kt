@@ -1,4 +1,4 @@
-package com.example.breathdemo.application
+package com.codinlog.breathe.application
 
 import android.app.Application
 import android.content.Context

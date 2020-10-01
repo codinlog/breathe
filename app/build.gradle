@@ -9,8 +9,8 @@ android {
         dataBinding true
     }
     defaultConfig {
-        applicationId "com.example.breathdemo"
-        minSdkVersion 28
+        applicationId 'com.codinlog.breathe'
+        minSdkVersion 26
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
