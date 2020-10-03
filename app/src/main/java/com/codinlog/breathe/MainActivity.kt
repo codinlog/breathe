@@ -7,9 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil.setContentView
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupActionBarWithNavController
-import com.example.breathe.databinding.ActivityMainBinding
+import com.codinlog.breathe.databinding.ActivityMainBinding
 import com.codinlog.breathe.widget.MediaRecorder
-import com.example.breathe.R
 import java.io.File
 import java.time.LocalTime
 

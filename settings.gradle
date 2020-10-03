@@ -1,3 +1,4 @@
+include ':AudioRecoder'
 include ':AudioView'
 include ':app'
-rootProject.name = "BreathDemo"
+rootProject.name = "Breathe"

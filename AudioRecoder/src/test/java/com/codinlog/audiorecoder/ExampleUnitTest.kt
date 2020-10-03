@@ -1,4 +1,4 @@
-package com.example.breathe
+package com.codinlog.audiorecoder
 
 import org.junit.Test
 
