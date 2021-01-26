@@ -1,18 +1,11 @@
 package com.codinlog.breathe
 
-import android.app.Activity
-import android.content.pm.PackageManager
+import java.time.Instant
+import java.time.LocalDateTime
+import java.time.ZoneId
+import java.time.format.DateTimeFormatter
 
-const val PERMISSION_REQUEST_CODE = 1
-val permissions = arrayOf(
-    android.Manifest.permission.RECORD_AUDIO,
-    android.Manifest.permission.WRITE_EXTERNAL_STORAGE
-)
-
-fun checkRequestPermissions(permissions: Array<String>, activity: Activity) {
-    permissions.filter { activity.checkSelfPermission(it) == PackageManager.PERMISSION_DENIED }
-        .toTypedArray().let {
-            if (it.isNotEmpty())
-                activity.requestPermissions(it, PERMISSION_REQUEST_CODE)
-        }
-}
+private val formatter: DateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd:hh-mm-ss")
+fun convertToLocalTime(mills: Long): String =
+    LocalDateTime.ofInstant(Instant.ofEpochMilli(mills), ZoneId.systemDefault())
+        .format(formatter)

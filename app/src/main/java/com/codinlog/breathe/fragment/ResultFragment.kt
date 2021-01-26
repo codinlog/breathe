@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
-import com.example.breathe.databinding.FragmentResultBinding
+import com.codinlog.breathe.databinding.FragmentResultBinding
 
 class ResultFragment : BaseFragment<FragmentResultBinding>() {
 

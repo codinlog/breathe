@@ -5,8 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.breathe.R
-import com.example.breathe.databinding.FragmentRecordBinding
+import com.codinlog.breathe.R
+import com.codinlog.breathe.databinding.FragmentRecordBinding
 
 class RecordFragment : BaseFragment<FragmentRecordBinding>() {
     override fun onCreate(savedInstanceState: Bundle?) {
